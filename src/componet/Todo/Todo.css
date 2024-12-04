@@ -1,0 +1,113 @@
+body {
+  margin: 10;
+  background-color: #A7C5A1;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.maincontainer {
+  width: 400px;
+  background-color: #A7C5A1;
+  text-align: center;
+  max-height: 80vh;
+  overflow-y: auto;
+ border-radius: 10px;
+}
+
+.inputsection {
+  margin-bottom: 10px;
+  background-color: #2A3D44;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(64, 63, 63, 0.582);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.inputsection h1 {
+  color: #edf4f2;
+}
+
+.inputsection input::placeholder {
+  color: #2A3D44;
+}
+
+.inputsection input {
+  border-radius: 10px;
+  border: 1px solid #2A3D44;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #edf4f2;
+  outline: none;
+  color: #2A3D44;
+}
+
+ul {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  text-align: left;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  color: #edf4f2;
+  box-shadow: 0 4px 6px rgba(64, 63, 63, 0.582);
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  background-color: #2A3D44;
+}
+
+ul li .icondiv {
+  width: 60px;
+  display: flex;
+  gap: 25px;
+}
+
+ul li .j {
+  margin-left: 30px;
+}
+
+.editinput {
+  border-radius: 10px;
+  border: 1px solid #243e36;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #edf4f2;
+  outline: none;
+  color: #243e36;
+}
+
+.formedit {
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.editbutton {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #edf4f2;
+  color: #243e36;
+  border: none;
+  cursor: pointer;
+}
+.maincontainer::-webkit-scrollbar {
+  display: none;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
